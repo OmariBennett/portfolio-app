@@ -1,0 +1,10 @@
+*, *::before, *::after {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Quando';
+	font-size: 1em;
+}
