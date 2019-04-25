@@ -2,12 +2,12 @@
 import React from 'react';
 
 //Image File imports
-import parkingLot from '../../img/alex-grodkiewicz-80908-unsplash.jpg';
-import a from '../../img/tyler-lillico-443202-unsplash.jpg'
-import b from '../../img/tom-butler-218-unsplash.jpg'
-import c from '../../img/sandra-ahn-mode-639495-unsplash.jpg'
-import d from '../../img/sandra-ahn-mode-639490-unsplash.jpg'
-import e from '../../img/leo-rivas-25956-unsplash.jpg'
+import parkingLot from '../asset/alex-grodkiewicz-80908-unsplash.jpg';
+import a from '../asset/tyler-lillico-443202-unsplash.jpg'
+import b from '../asset/tom-butler-218-unsplash.jpg'
+import c from '../asset/sandra-ahn-mode-639495-unsplash.jpg'
+import d from '../asset/sandra-ahn-mode-639490-unsplash.jpg'
+import e from '../asset/leo-rivas-25956-unsplash.jpg'
 
 const Desgin = () => {
 	return (

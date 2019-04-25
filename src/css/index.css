@@ -8,3 +8,32 @@ body {
 	font-family: 'Quando';
 	font-size: 1em;
 }
+
+.navBtn--top {
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 13px;
+	left: 8px;
+}
+
+.navBtn--med	{
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 20px;
+	left: 8px;
+}
+
+
+.navBtn--bottom {
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 10px;
+	left: 8px;
+}
+

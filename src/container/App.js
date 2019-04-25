@@ -3,15 +3,14 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //Compotnents Imports
-import Header from '../presentational/Header';
-import About from '../presentational/About';
-import Html from '../presentational/Html';
-import JavaScript from '../presentational/JavaScript';
-import TicTacToe from '../presentational/TicTacToe';
-import Todo from '../presentational/Todo';
-import NotFound from '../presentational/NotFound';
-import Design from '../presentational/Design';
-
+import Header from '../components/Header';
+import About from '../components/About';
+import Html from '../components/Html';
+import JavaScript from '../components/JavaScript';
+import TicTacToe from '../components/TicTacToe';
+import Todo from '../components/Todo';
+import NotFound from '../components/NotFound';
+import Design from '../components/Design';
 
 class App extends Component {
   render() {
