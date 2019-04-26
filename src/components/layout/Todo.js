@@ -1,11 +1,14 @@
 /*@flow*/
 import React from 'react';
 
+import Wrapper from './Wrapper';
+
+
 const Todo = () => {
 	return (
-			<div>
-				<h1>Todo List Page...</h1>
-			</div>
+		<Wrapper>
+			<h1>Todo List Page...</h1>
+		</Wrapper>
 	);
 }
 

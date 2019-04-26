@@ -3,20 +3,21 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //Compotnents Imports
-import Header from '../components/Header';
-import About from '../components/About';
-import Html from '../components/Html';
-import JavaScript from '../components/JavaScript';
-import TicTacToe from '../components/TicTacToe';
-import Todo from '../components/Todo';
-import NotFound from '../components/NotFound';
-import Design from '../components/Design';
+import Header from '../components/component/Header';
+import About from '../components/layout/About';
+import Html from '../components/layout/Html';
+import JavaScript from '../components/layout/JavaScript';
+import TicTacToe from '../components/layout/TicTacToe';
+import Todo from '../components/layout/Todo';
+import NotFound from '../components/layout/NotFound';
+import Design from '../components/layout/Design';
 
 class App extends Component {
   render() {
     return (
     	<Router>
         <Header />
+
 
         <Switch>
 	        <Route exact path='/' component={About} />

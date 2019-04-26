@@ -5,11 +5,13 @@
 }
 
 body {
+	/*font-family: 'Architects Daughter';*/
 	font-family: 'Quando';
 	font-size: 1em;
+	background: #f2f2f2;
 }
 
-.navBtn--top {
+/*.navBtn--top {
 	width: 60px;
 	height: 3px;
 	background-color: #fff;
@@ -36,4 +38,4 @@ body {
 	bottom: 10px;
 	left: 8px;
 }
-
+*/

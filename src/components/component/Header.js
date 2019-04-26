@@ -1,7 +1,7 @@
 /*@flow*/
 import React, { Component } from 'react';
 //Components imports
-import HamburgerNav from './component/HamburgerNav/index'
+import HamburgerNav from './HamburgerNav/index'
 
 class Header extends Component {
 

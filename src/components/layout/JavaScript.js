@@ -1,11 +1,14 @@
 /*@flow*/
 import React from 'react';
 
+import Wrapper from './Wrapper';
+
+
 const JavaScript = () => {
 	return (
-			<div>
-				<h1>JavaScript Page...</h1>
-			</div>
+		<Wrapper>
+			<h1>JavaScript Page...</h1>
+		</Wrapper>
 	);
 }
 

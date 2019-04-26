@@ -1,4 +1,5 @@
 import Styled from 'styled-components';
+import media from '../../base/StyleVariable';
 
 const Bar = Styled.div`
   width: 35px;
@@ -11,6 +12,10 @@ const Bar = Styled.div`
 
   opacity: ${props => props.middle ? 0 : undefined };
 
+
+  ${media.tablet`
+  	display: none;
+	`}
 `;
 
 export default Bar;

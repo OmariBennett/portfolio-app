@@ -1,11 +1,14 @@
 /*@flow*/
 import React from 'react';
 
+import Wrapper from './Wrapper';
+
+
 const TicTacToe = () => {
 	return (
-			<div>
-				<h1>TicTacToe Page...</h1>
-			</div>
+		<Wrapper>
+			<h1>TicTacToe Page...</h1>
+		</Wrapper>
 	);
 }
 
